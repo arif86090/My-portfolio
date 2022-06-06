@@ -1,0 +1,43 @@
+[
+    {
+    "_id":1,
+    "name":"PC-House",
+    "img1":"https://i.ibb.co/JnTtq2J/project1-1.png",
+    "img2":"https://i.ibb.co/CWSSYNJ/project1-3.png",
+    "img3":"https://i.ibb.co/n0dczHy/project1-2.png",
+    "descripation":"Leading Computer, Laptop & Gaming PC Retail & Online Company in BangladeshTechnology has become a part of our daily lives and for a huge portion of our life, we are dependent on tech products daily. There is hardly a home in Bangladesh without a tech product. This is where we come in. Star Tech & Engineering Ltd had started as a Tech product shop way back in March 2007",
+     "live":"https://pc-houses.netlify.app/",
+    "technology":[
+         "Html",
+         "Css",
+         "Tailwind",
+         "React js",
+         "Node js",
+         "Express",
+         "MongoDB"
+     ]
+
+    },
+    {
+        "_id":2,
+        "name":"Mobile-Corner",
+        "img1":"https://i.ibb.co/16rHNVF/Screenshot-2022-06-05-215459.png",
+        "img2":"https://i.ibb.co/0VxZXMp/Screenshot-2022-06-05-215538.png",
+        "img3":"https://i.ibb.co/TRBvxVp/Screenshot-2022-06-05-215740.png",
+        "descripation":"Intel Core is a line of streamlined midrange consumer, workstation and enthusiast computer central processing units (CPUs) marketed by Intel Corporation. ",
+         "live":"https://assignments-11.netlify.app/",
+        "technology":[
+             "Html",
+             "Css",
+             "Bootstrap",
+             "React js",
+             "Node js",
+             "Express js",
+             "MongoDB"
+         ]
+      
+        }
+
+   
+ 
+]

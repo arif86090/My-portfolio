@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+@media screen and (min-width: 576px) {
+  .swiper-container {
+    width: 576px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}
+.service-icon-bg{
+  background:#45ccb8;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+ align-items: center;
+ justify-content: center; 
+}
+
+.service-icon-bg .DesktopComputerIcon{
+ height: 40px;
+ width: 40px;
+}
+
+.btnArrow{
+  animation:logo 2s linear infinite;
+}
+@keyframes logo {
+  0%{
+    transform:translateX(-5px);
+  }
+  50%{
+    transform:translateX(5px);
+  }
+  100%{
+    transform:translateX(-5px);
+  }
+}
+.services-text li{
+  line-height: 30px;
+  font-size: 17px;
+}
+
+.addvanteg-logo{
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.contact-icon{
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.LocationMarkerIcon{
+  height: 17px;
+}
+.contact-text{
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.social-icon-body{
+  height: 45px;
+  width: 45px; 
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.footer-logo{
+  width: 252px;
+  height: 132px;
+}
+.footer-header{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.footer-text li{
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+}
+.about-text{
+  font-size: 18px;
+}
+.aboutimg{
+  height: 450px;
+  width: 456px;
+}
+.bannerimg {
+  height: 565px;
+  width: 606px;
+}
+.move-up {
+  position: fixed;
+  margin-right: 50px;
+  cursor: pointer;
+  bottom: 30px;
+  right: 0;
+  z-index: 20;
+  text-align: center;
+  height: 45px;
+  line-height: 46px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.topIcon{
+  height: 35px;
+  width: 35px; 
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ animation:TopIcon 3s linear infinite;
+}
+@keyframes TopIcon {
+  0%{
+    transform:translateY(-8px);
+  }
+  50%{
+    transform:translateY(8px);
+  }
+  100%{
+    transform:translateY(-8px);
+  }
+}
+.home-text{
+  font-size: 18px;
+}
+.banner-tittle{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.static-text{
+  font-size: 20px;
+}
+.wrapper{
+	display: flex;
+}
+.daynamic-text{
+	margin-left: 10px;
+	line-height: 30px;
+	height:30px;
+	
+	overflow: hidden;
+}
+.daynamic-text li{
+	list-style: none;
+	position: relative;
+	color: #45ccb8;
+  font-weight: bold;
+  font-size: 20px;
+	top: 0;
+	animation: slider 12s steps(4) infinite;
+}
+@keyframes slider{
+	100%{
+		top: -120px;
+
+	}
+}
+
+.daynamic-text li::after{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background:#E6E6E6;
+	left: 0;
+	border-left: 2px solid #45ccb8;
+	animation: typing 3s steps(15) infinite;
+}
+@keyframes typing{
+	40%,
+	60%{
+		left: calc(100% + 30px);
+	}
+	100%{
+		left: 0;
+	}
+}
+.ChatAlt2Icon{
+  width: 25px;
+}
+.Technology-t{
+  font-size: 17px;
+  font-weight: bold;
+}
+.swiper-button-next, .swiper-button-prev{
+  color: #45ccb8!important;
+}
+.swiper-pagination-bullet-active{
+  background: #45ccb8!important;
+}
+.swiper-scrollbar-drag{
+  background: #45ccb8!important;
+}
+.live-icon{
+  width:20px;
+}
+.livebtn:hover{
+  color: #E6E6E6!important;
+}
+.project-box{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.heading-text{
+  position: relative;
+  display: inline-block;
+}
+.heading-text::after{
+  position: absolute;
+  content: "";
+  width: 110%;
+  height:5px;
+  background-color: #45ccb8;
+ bottom: -6px;
+  left: 0;
+  animation: underline 4s linear infinite;
+}
+@keyframes underline {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+.summery-icon{
+  font-size: 45px;
+  margin-right: 20px;
+}
+.summery-text h3{
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+.summery-text h4{
+  font-size: 19px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 4px;
+  
+}
+.summery-1{
+  transition: all .4s;
+}
+.summery-1:hover .summery-icon,.summery-1:hover .summery-text{
+ color: white;
+ transition: all .4s;
+}
+.summery-1:hover{
+  background: #45ccb8;
+}
+
+.footer-container{
+  position: relative;
+}
+
+
+.wave {
+
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/ykXCZzs/arif-1.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+
+
+
+
+
+
+@media(max-width:1030px){
+  #logo{
+      display: none;
+  }
+}
+@media(max-width:778px){
+  .bannerimg {
+      height: 631px;
+      width: 606px;
+  }
+  .footer-logo {
+      width: 185px;
+      height: 112px;
+  }
+  .technology-text{
+    font-size: 13px;
+  }
+  }
+@media(max-width:576px){
+  .logo {
+      width: 118px;
+      height: 54px;
+  }
+  .bannerimg {
+      height: 345px;
+      width: 606px;
+      margin-top: 80px;
+  }
+  .aboutimg {
+      height: 316px;
+      width: 456px;
+      margin-bottom: 30px;
+  }
+  .about-text {
+      font-size: 15px;
+  }
+  .footer-logo {
+      width: 154px;
+      height: 82px;
+  }
+  .move-up {
+    right: -35px;
+  }
+  .technology-text{
+    font-size: 12px;
+  }
+  .contact-text {
+    font-size: 15px;
+  }
+  .home-text{
+    font-size: 16px;
+  }
+}
