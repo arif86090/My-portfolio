@@ -1,12 +1,13 @@
 [
     {
-    "_id":1,
+   
     "name":"PC-House",
     "img1":"https://i.ibb.co/JnTtq2J/project1-1.png",
     "img2":"https://i.ibb.co/CWSSYNJ/project1-3.png",
     "img3":"https://i.ibb.co/n0dczHy/project1-2.png",
-    "descripation":"Leading Computer, Laptop & Gaming PC Retail & Online Company in BangladeshTechnology has become a part of our daily lives and for a huge portion of our life, we are dependent on tech products daily. There is hardly a home in Bangladesh without a tech product. This is where we come in. Star Tech & Engineering Ltd had started as a Tech product shop way back in March 2007",
+    "descripation":"Leading Computer, Laptop & Gaming PC Retail & Online Company in BangladeshTechnology has become a part of our daily lives and for a huge portion of our life, we are dependent on tech products daily. There is hardly a home in Bangladesh without a tech product. This is where we come in.",
      "live":"https://pc-houses.netlify.app/",
+     "github":"https://github.com/arif86090/pc-house-Clients",
     "technology":[
          "Html",
          "Css",
@@ -19,24 +20,63 @@
 
     },
     {
-        "_id":2,
+       
         "name":"Mobile-Corner",
         "img1":"https://i.ibb.co/16rHNVF/Screenshot-2022-06-05-215459.png",
         "img2":"https://i.ibb.co/0VxZXMp/Screenshot-2022-06-05-215538.png",
         "img3":"https://i.ibb.co/TRBvxVp/Screenshot-2022-06-05-215740.png",
-        "descripation":"Intel Core is a line of streamlined midrange consumer, workstation and enthusiast computer central processing units (CPUs) marketed by Intel Corporation. ",
+        "descripation":"This a mobile shop website.without login you can't order any products.firstly you login and got to checkout page.then you  show products details  and this website admin can managed . The admin will see who placed the order.Admin can update and delete products if the want ",
          "live":"https://assignments-11.netlify.app/",
+         "github":"https://github.com/arif86090/Mobile-corner",
         "technology":[
              "Html",
              "Css",
              "Bootstrap",
              "React js",
              "Node js",
-             "Express js",
+             "Express",
              "MongoDB"
          ]
       
-        }
+        },
+        {
+            
+            "name":"Mobile App Development",
+            "img1":"https://i.ibb.co/3NQrjh2/Screenshot-2022-06-08-122755.png",
+            "img2":"https://i.ibb.co/7RtcXb1/Screenshot-2022-06-08-122831.png",
+            "img3":"https://i.ibb.co/sVdsCfF/Screenshot-2022-06-08-122914.png",
+            "descripation":"This a simple app development company.manage projects, and reach new productivity peaks. From high rises to the home office, the way your team works is unique—accomplish it all with Mobile App Development.its have a contact form anyone can sent message",
+             "live":"https://arif86090.github.io/Mappdevelopments.com/",
+             "github":"https://github.com/arif86090/Mappdevelopments.com",
+            "technology":[
+                 "Html",
+                 "Css",
+                 "Bootstrap",
+                 "Javascript",
+                 "React js"
+               
+             ]
+          
+            },
+        {
+            
+            "name":"AB-Company",
+            "img1":"https://i.ibb.co/QK0pgKx/Screenshot-2022-06-08-114946.png",
+            "img2":"https://i.ibb.co/RpKvTfC/Screenshot-2022-06-08-115026.png",
+            "img3":"https://i.ibb.co/NmVG7t8/Screenshot-2022-06-08-115132.png",
+            "descripation":"These are some of the desgin  that i am highlighting.Firstly banner image up and down.when we scroll the website then show the social midia icons.And add some exclusive hover effect.A search icon appears in the heading in the end we show a beautiful contact form.  ",
+             "live":"https://arif86090.github.io/arif-project-6.com/",
+             "github":"https://github.com/arif86090/arif-project-6.com",
+            "technology":[
+                 "Html",
+                 "Css",
+                 "Bootstrap",
+                 "Javascript",
+                 "React js"
+               
+             ]
+          
+            }
 
    
  

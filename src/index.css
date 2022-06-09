@@ -303,28 +303,28 @@
 }
 
 .wave#wave1 {
-  z-index: 1000;
+  z-index: 10;
   opacity: 1;
   bottom: 0;
   animation: animateWaves 4s linear infinite;
 }
 
 .wave#wave2 {
-  z-index: 999;
+  z-index: 10;
   opacity: 0.5;
   bottom: 10px;
   animation: animate 4s linear infinite !important;
 }
 
 .wave#wave3 {
-  z-index: 1000;
+  z-index: 10;
   opacity: 0.2;
   bottom: 15px;
   animation: animateWaves 3s linear infinite;
 }
 
 .wave#wave4 {
-  z-index: 999;
+  z-index: 10;
   opacity: 0.7;
   bottom: 20px;
   animation: animate 3s linear infinite;
@@ -372,6 +372,9 @@
     font-size: 13px;
   }
   }
+
+
+
 @media(max-width:576px){
   .logo {
       width: 118px;
@@ -383,12 +386,12 @@
       margin-top: 80px;
   }
   .aboutimg {
-      height: 316px;
+      height: 300px;
       width: 456px;
       margin-bottom: 30px;
   }
   .about-text {
-      font-size: 15px;
+      font-size: 14px;
   }
   .footer-logo {
       width: 154px;

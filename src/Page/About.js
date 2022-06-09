@@ -22,7 +22,7 @@ const About = () => {
                         <h5 className='about-text py-3'><span className='font-bold text-primary '>Address:</span>  Dinajpur,Bangladesh</h5>
                         <h5 className='about-text'><span className='font-bold text-primary '>Email:</span>  arifhossain68122@gmail.com</h5>
                         <h5 className='about-text my-3'><span className='font-bold text-primary '>Phone:</span>  +08801762931601</h5>
-                        <a href='https://drive.google.com/file/d/1slP79nfoFod3Ty6OToA9TGC74oB90jok/view'> <button class="btn btn-outline btn-primary mt-5">Download  Resume</button></a>
+                        <a href='https://drive.google.com/file/d/1slP79nfoFod3Ty6OToA9TGC74oB90jok/view' target="_blank"> <button class="btn btn-outline btn-primary mt-5">Download  Resume</button></a>
                        
                         </div>
                     </div>

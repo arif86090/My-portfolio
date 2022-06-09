@@ -8,8 +8,12 @@ const Navbar = () => {
     const menuItems= <> 
     <li className='ml-3 font-bold'><NavLink to='/'>Home</NavLink></li>
     <li className='ml-3 font-bold'><NavLink to='/about'>About</NavLink></li>
-    <li className='ml-3 font-bold'><NavLink to='/myportfolio'>My Portfolio</NavLink></li>
-  
+    <li className='ml-3 font-bold'><NavLink to='/skills'>Skills</NavLink></li>
+    <li className='ml-3 font-bold'><NavLink to='/projects'>Projects</NavLink></li>
+    <li className='ml-3 font-bold'><NavLink to='/contact'>Contact</NavLink></li>
+
+    <li className='ml-3 font-bold'><a href='https://drive.google.com/file/d/1BVtQFT9ZJuj89ZBpOv_PrL__y0k4CJIr/view?usp=sharing' target="_blank" >Resume</a></li>
+
 </>
     return (
         <div className='bg-white fixed w-full top-0 z-20 m-auto'>
